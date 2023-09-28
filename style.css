@@ -170,3 +170,84 @@ body {
             box-shadow: 0px 15px 20px rgba(2, 7, 21, 0.467);
             transition-duration:0.5s
         }
+
+/*RODAPE*/ 
+footer {
+    background-color:var(--azul-dnc);
+    width: 100%;
+    
+    
+    justify-content: space-around;
+    align-items: center;
+
+
+    
+}
+footer .line1 {
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+}
+
+    footer ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        
+        font-family:var(--fonte-padrao) ;
+        font-size: 18px;
+        font-weight: 800px;
+    }
+    footer nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 330px;
+
+    }
+    footer h5 {
+        font-family: var(--fonte-padrao);
+        color: white;
+        background-color: var(--preto-dnc);
+        border-radius: 10px;
+        height: 25px;
+        
+        font-size: 18px;
+        padding: 2px 10px 0px 10px;
+        font-weight: 800;
+    }
+    footer ul li {
+        text-align: center;
+        font-weight: 600;
+        margin: 20px 0px 20px 0px;
+    }
+    footer ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    footer ul li a:hover {
+        color: var(--cinza-hover);
+
+    }
+        .address {
+            font-family:var(--fonte-padrao) ;
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 800;
+            width: 22%;
+
+        }  
+    .line2 {
+        font-family: var(--fonte-padrao);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 30px 0px 30px 0px;
+    }
+        .line2 a {
+            color: white;
+            text-decoration: none;
+            
+        }
