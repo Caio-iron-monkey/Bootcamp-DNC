@@ -251,3 +251,86 @@ footer .line1 {
             text-decoration: none;
             
         }
+        .line2 a:first-child {
+            border-right: 3px solid white;
+            padding-right: 5px;
+        }
+        .line2 a:hover {
+            color: var(--cinza-hover);
+        
+        }
+        
+        
+@media only screen and (max-width: 600px) {
+
+
+    /*MENU*/
+
+
+    #Principal {
+        
+        flex-direction:column;
+        height: auto;
+        
+
+    }
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        
+
+    }
+    .menu a {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        
+    } 
+    #Principal button {
+        width: 100%;
+        margin: 0px;
+    }
+    /*SECTION*/
+
+    #title-bootcamp {
+        font-size: 38px;
+    }
+    #text-bootcamp {
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    form {
+        font-size: 20px;
+        width: 95%;
+        
+        
+    }
+    .checkbox-itens label {
+        font-size: 17px;
+    }
+       
+    label[for="marginbotton"]{
+        padding-bottom: 0px;
+    }
+    .checkbox-itens input {
+        width: 15px;
+
+    }
+    #button {
+        width: 100%;
+        align-items: center;
+       
+    }
+
+/*RODAPE*/
+
+footer .line1 {
+    flex-direction: column;
+}
+.address {
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
